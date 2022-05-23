@@ -8,8 +8,13 @@ package pong;
 public class Pong {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	GameFrame frame = new GameFrame();
+	
+	/*public void setXDirection(int randomXDirection){}
+	public void setYDirection(int randomYDirection){}
+	public void move() {}
+	public void draw(Graphics g) {}*/
 
+	
 	}
-
 }

@@ -7,9 +7,13 @@ import javax.swing.*;
 package pong;
 
 public class Score {
-
-	Score(){
-		
-	}
+	
+	static int GAME_WIDTH;
+	static int GAME HEIGHT;
+	int player1;
+	int player2;
+	
+	Score(){}
+	public void draw(Graphics g){}
 	
 }

@@ -5,8 +5,9 @@ import javax.swing.*;
 
 package pong;
 
-public class GameFrame {
+public class GameFrame extends JFrame{
 
+	GamePanel panel = new GamePanel();
 	GameFrame(){
 
 	}

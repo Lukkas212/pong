@@ -7,8 +7,13 @@ package pong;
 
 public class Ball {
 	
-	Ball(){
-		
-	}
-
+	Random random;
+	int xVelocity;
+	int yVelocty;
+	
+	
+	Ball(){}
+	public void setXDirection(int randomXDirection) {}
+	public void setYDirection(int randomYDirection) {}
+	public void draw(Graphics g) {}
 }
